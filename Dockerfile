@@ -1,5 +1,5 @@
 FROM tomcat
 
-copy . /usr/local/tomcat/webapp/ROOT
+copy . /usr/local/tomcat/webapps/ROOT
 
 CMD ["catalina.sh", "run"]
